@@ -149,6 +149,7 @@ namespace _4
             do
             {
                 Console.Clear();
+                Console.WriteLine("Программа вычисляет значение выражения (n0/d0) + (n1/d1)*(a/b)^1 + (n2/d2)^(a/b)^2 + ... + (n7/d7)^(a/b)^7 методом Горнера.\n");
                 Actions();
             } while (ChoiceOfActions() == 1);
         }

@@ -121,6 +121,7 @@ namespace _6
             do
             {
                 Console.Clear();
+                Console.WriteLine("Программа строит последовательность a(i) = (1.5 * a(i-1)) - (2*a(i-2) / 3) - (a(i-3)/3) по первым трём членам.\n");
                 Actions();
             } while (ChoiceOfActions() == 1);
         }

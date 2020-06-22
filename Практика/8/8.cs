@@ -345,6 +345,7 @@ namespace _8
             do
             {
                 Console.Clear();
+                Console.WriteLine("Программа вычисляет количество точек сочленения графа, заданного матрицей смежности.\n");
                 Actions();
             } while (ChoiceOfActions() == 1);
         }

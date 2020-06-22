@@ -146,6 +146,7 @@ namespace _5
             do
             {
                 Console.Clear();
+                Console.WriteLine("Программа находит значение наиб. элемента обасти квадратной матрицы, находящейся слева при пересечении её диагоналей.\n");
                 Actions();
             } while (ChoiceOfActions() == 1);
         }

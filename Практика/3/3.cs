@@ -86,6 +86,7 @@ namespace _3
             do
             {
                 Console.Clear();
+                Console.WriteLine("Программа проверяет, попадает ли точка в область (y > 1 или y > |x|)\n");
                 Actions();
             } while (ChoiceOfActions() == 1);
         }
