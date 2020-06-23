@@ -104,7 +104,7 @@ namespace Задача_11
             for (int i = 0; i < sBeg.Length; i++)
             {
                 //маленькие русские буквы
-                if (sBeg[i] >= 'a' && sBeg[i] <= 'я' || sBeg[i] == 'ё')
+                if (sBeg[i] >= 1072 && sBeg[i] <= 1103 || sBeg[i] == 1105)
                 {
                     step = n % 33;
                     int iBeg = s.IndexOf(sBeg[i]);
@@ -115,7 +115,7 @@ namespace Задача_11
                 }
 
                 //большие русские буквы
-                else if (sBeg[i] >= 'А' && sBeg[i] <= 'Я' || sBeg[i] == 'Ё')
+                else if (sBeg[i] >= 1040 && sBeg[i] <= 1071 || sBeg[i] == 1025)
                 {
                     step = n % 33;
                     int iBeg = S.IndexOf(sBeg[i]);
