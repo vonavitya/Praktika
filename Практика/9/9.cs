@@ -86,8 +86,7 @@ namespace _9
             int start = 0;
             if (Beg == null)
             {
-                Beg.Data = mas[0];
-                Beg.Next = null;
+                Beg = new Elem<T>(mas[0]);
                 start++;
             }
             Elem<T> p = Beg;
