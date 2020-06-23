@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9", "9\9.csproj", "{EC9E751
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1", "1\1.csproj", "{5A9958E6-F111-4381-8770-CC619AE94413}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 11", "Задача 11\Задача 11.csproj", "{D429FE86-1736-48B3-9D43-2864EDE1E887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Задача 11", "Задача 11\Задача 11.csproj", "{D429FE86-1736-48B3-9D43-2864EDE1E887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Тесты 9", "Тесты 9\Тесты 9.csproj", "{FAA53643-E90E-4D47-A757-41DE6A1B6098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Тесты 9", "Тесты 9\Тесты 9.csproj", "{FAA53643-E90E-4D47-A757-41DE6A1B6098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Тесты 4", "Тесты 4\Тесты 4.csproj", "{E139CE3D-07F6-4EFC-9EBB-291823D0913D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{FAA53643-E90E-4D47-A757-41DE6A1B6098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA53643-E90E-4D47-A757-41DE6A1B6098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA53643-E90E-4D47-A757-41DE6A1B6098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E139CE3D-07F6-4EFC-9EBB-291823D0913D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E139CE3D-07F6-4EFC-9EBB-291823D0913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E139CE3D-07F6-4EFC-9EBB-291823D0913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E139CE3D-07F6-4EFC-9EBB-291823D0913D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
