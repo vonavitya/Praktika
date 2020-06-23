@@ -56,7 +56,7 @@ namespace _9
                 for (int i = 1; i < size; i++)
                 {
                     Elem<T> tmp = new Elem<T>();
-                    tmp.Next = p;
+                    p.Next = tmp;
                     p = tmp;
 
                 }
@@ -130,7 +130,6 @@ namespace _9
         {
             get
             {
-                if (Beg == null) return 0;
                 int len = 0;
                 Elem<T> p = Beg;
                 while (p != null)
@@ -139,15 +138,14 @@ namespace _9
                     len++;
                 }
                 return len;
-
             }
         }
 
         //длина списка рекурсией
-        public static int LengthRecursia(Elem<T> tmp, int lenUpToNow = 1)
+        public static int LengthRecursia(Elem<T> tmp, int lenUpToNow = 0)
         {
             if (tmp.Next == null)
-                return lenUpToNow;
+                return lenUpToNow + 1;
             else
                 return LengthRecursia(tmp.Next, lenUpToNow + 1);
         }
