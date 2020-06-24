@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace _7._1
+namespace _7
 {
     class Program
     {
